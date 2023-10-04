@@ -1,0 +1,12 @@
+/docker/data/*/
+/src/wordpress/wp-content/uploads/
+/src/wordpress/wp-content/themes/twenty*/
+/data/db/*.sql
+/docker/data/*
+!/docker/data/.gitkeep
+/vendor/
+
+/src/assets/node_modules
+
+*.iml
+.idea

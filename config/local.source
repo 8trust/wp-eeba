@@ -1,0 +1,9 @@
+export MYSQL_CONNECTION_TYPE=ip
+export MYSQL_USERNAME=root
+export MYSQL_PASSWORD='p4ssw0rd!' # Use simple quotes
+export MYSQL_DATABASE=wordpress
+export MYSQL_HOST=127.0.0.1
+export MYSQL_PORT=3306
+export FILES_PATH=src/wordpress/ # Relative path with trailing SLASH
+export LOCATION_TYPE=local
+export URL=http://localhost # No trailing slash

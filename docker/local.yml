@@ -1,0 +1,57 @@
+version: '2'
+services:
+  wordpress:
+    depends_on:
+      - db
+    image: skeleton/wordpress-8.1 #replace with wordpress-7.4 if needed
+    restart: always
+    volumes:
+      - ./../src/wordpress:/var/www/html/
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - back
+
+  wpcli:
+    depends_on:
+      - wordpress
+    image: wordpress:cli
+    user: 1000:1000
+    command: tail -f /dev/null
+    volumes:
+      - ./../src/wordpress:/var/www/html/
+    environment:
+      WORDPRESS_DB_CONNECTION_TYPE: ip
+      WORDPRESS_DB_HOST: 127.0.0.1:3306
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: p4ssw0rd!
+      WORDPRESS_DB_NAME: wordpress
+    networks:
+      - back
+
+  db:
+    image: mysql:8
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+       - ./data/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: p4ssw0rd!
+      MYSQL_DATABASE: wordpress
+    ports:
+      - 3306:3306
+    networks:
+      - back
+
+  mailcatcher:
+     image: zolweb/docker-mailcatcher
+     ports:
+       - 1080:1080
+     networks:
+           - back
+
+networks:
+  back:
+volumes:
+  db_data:
