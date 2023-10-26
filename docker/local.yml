@@ -3,7 +3,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: skeleton/wordpress-8.1 #replace with wordpress-7.4 if needed
+    image: eeba/wordpress-8.1 #replace with wordpress-7.4 if needed
     restart: always
     volumes:
       - ./../src/wordpress:/var/www/html/
