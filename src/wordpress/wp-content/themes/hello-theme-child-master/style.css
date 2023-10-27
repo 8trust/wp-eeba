@@ -1,0 +1,82 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Add your custom styles here */
+
+
+/*homepage tabs */
+.e-n-tabs-heading .e-n-tab-title[aria-selected=true]{
+  transform: translateX(30px);
+  transition: transform 1s;
+}
+
+/*homepage infrastructure*/
+.titre_infras {
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+ .titre_infras:hover {
+  opacity: 0.8;
+  transition-duration: 0.5s;
+    color: #fff;
+    border-radius: 10px;
+  cursor: pointer;
+}
+
+
+/*année_scolaire  probleme pas prioritaire*/
+#aside_menu{
+   opacity:1 !important;
+}
+/* TEST FLECHES MATERNELLES */
+
+/* Masquer la flèche par défaut */
+.nav_menu_aside_mat .elementor-nav-menu .elementor-item i {
+    opacity: 0;
+}
+
+/* Rendre la flèche visible pour les éléments actifs */
+.nav_menu_aside_mat .elementor-nav-menu .elementor-item.elementor-item-active i {
+   opacity: 1;
+}
+
+.nav_menu_aside_mat ul li a.elementor-item-active {
+    transform: translateX(20px);
+    transition: transform 1s;
+    color: #FFCD66 !important;
+  	opacity: 1 !important;
+}
+
+
+/*année_scolaire ------------------------------------------------------ */
+
+
+/*header */
+@media (min-width: 1024px)  {
+.elementor-element-6e48cd0e.elementor-sticky--effects  {
+   opacity:0.6 !important;
+}
+.elementor-element-6e48cd0e.elementor-sticky--effects:hover  {
+   opacity:1 !important;
+}
+
+.elementor-element-6e48cd0e.elementor-sticky--effects, .sticky-menu ul li a {
+  transition: 0.3s all ease-in-out;
+  
+} }
+
+
+
+
