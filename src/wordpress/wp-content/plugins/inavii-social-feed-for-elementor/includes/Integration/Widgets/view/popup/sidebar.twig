@@ -1,0 +1,22 @@
+{% if (enable_popup_follow_button or enable_popup_icon_follow_button) %}
+    <article class="inner-swiper-slide__sidebar">
+        <div class="inner-swiper-slide__sidebar-view-instagram">
+            <a class="inner-swiper-slide__sidebar-view-instagram-button" href="{{ item.permalink }}" target="_blank"
+               rel="nofollow noopener" role="button">
+                {% if (enable_popup_icon_follow_button) %}
+                    {% if (follow_popup_button_icon.icon_class ) %}
+                        <i class="{{ follow_popup_button_icon.icon_class }}"></i>
+                    {% else %}
+                        {{ follow_popup_button_icon.inline_svg }}
+                    {% endif %}
+                {% endif %}
+
+                {% if (enable_popup_follow_button) %}
+                    <span class="inner-swiper-slide__sidebar-text">
+                        {{ follow_popup_button_text }}
+                    </span>
+                {% endif %}
+            </a>
+        </div>
+    </article>
+{% endif %}

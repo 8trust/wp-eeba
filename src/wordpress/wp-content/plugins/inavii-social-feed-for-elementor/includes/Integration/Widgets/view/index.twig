@@ -1,0 +1,13 @@
+{% if (enable_avatar_header_box or username_header_box or enable_header_follow_button or enable_bio_header_box) %}
+    {% include 'view/header-box/header-box.twig' %}
+{% endif %}
+
+{% if is_pro and feed_type == "slider" %}
+    {% include 'view/slider/slider.twig' %}
+{% else %}
+    {% include 'view/grid/grid.twig' %}
+{% endif %}
+
+{% if (enable_follow_button and items) %}
+    {% include 'view/buttons.twig' %}
+{% endif %}
