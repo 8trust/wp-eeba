@@ -15,6 +15,38 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 /* Add your custom styles here */
 
 
+/*header */
+@media (min-width: 1024px)  {
+.elementor-element-6e48cd0e.elementor-sticky--effects  {
+   opacity:0.6 !important;
+}
+.elementor-element-6e48cd0e.elementor-sticky--effects:hover  {
+   opacity:1 !important;
+}
+
+.elementor-element-6e48cd0e.elementor-sticky--effects, .sticky-menu ul li a {
+  transition: 0.3s all ease-in-out;
+  
+} }
+
+
+/*header vertical popup */
+.popupmenu ul.sub-menu li a {
+    width: 220px;
+    border-radius: 10px;
+}
+.popupmenu   {
+   background: #33517B ;
+   width: 300px;
+   position: fixed
+   
+}
+/*header mobile */
+.header_mobile ul.sub-menu li a {
+    width: auto;
+    border-radius: 10px;
+}
+
 /*homepage tabs */
 .e-n-tabs-heading .e-n-tab-title[aria-selected=true]{
   transform: translateX(30px);
@@ -63,19 +95,6 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 /*année_scolaire ------------------------------------------------------ */
 
 
-/*header */
-@media (min-width: 1024px)  {
-.elementor-element-6e48cd0e.elementor-sticky--effects  {
-   opacity:0.6 !important;
-}
-.elementor-element-6e48cd0e.elementor-sticky--effects:hover  {
-   opacity:1 !important;
-}
-
-.elementor-element-6e48cd0e.elementor-sticky--effects, .sticky-menu ul li a {
-  transition: 0.3s all ease-in-out;
-  
-} }
 
 
 
