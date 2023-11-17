@@ -1,0 +1,123 @@
+# Translation of Plugins - Social Feed Gallery - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Social Feed Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-05 08:38:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Social Feed Gallery - Stable (latest release)\n"
+
+#: vendor_packages/wp-plugin-table-links.php:23 build/backend/js/index.js:46
+msgid "Documentation"
+msgstr "Documentation"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:165
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr "Favorites"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:164
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr "Recommandée"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:163
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr "Populaire"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:162
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr "Mise en avant"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:157
+msgid "Search Results"
+msgstr "Résultats de recherche"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:78
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:93
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:94
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:47
+#: build/backend/js/index.js:46
+msgid "Suggestions"
+msgstr "Suggestions"
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:160
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr "Beta test"
+
+#: compatibility/widget.php:68
+msgid "Select your Instagram gallery"
+msgstr "Sélectionnez votre galerie Instagram"
+
+#: vendor_packages/wp-notice-plugin-promote.php:50
+msgid "Yes, of course!"
+msgstr "Oui, bien sûr !"
+
+#: vendor_packages/wp-notice-plugin-promote.php:63 build/backend/js/index.js:46
+msgid "Purchase Now"
+msgstr "Acheter maintenant"
+
+#: vendor_packages/wp-plugin-table-links.php:18 build/backend/js/index.js:46
+msgid "Support"
+msgstr "Support"
+
+#: vendor_packages/wp-notice-plugin-promote.php:55
+msgid "Report a bug"
+msgstr "Signaler un bogue"
+
+#. Author of the plugin
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:79
+msgid "QuadLayers"
+msgstr "QuadLayers"
+
+#. Author URI of the plugin
+msgid "https://quadlayers.com"
+msgstr "https://quadlayers.com"
+
+#: lib/backend/class-load.php:51 lib/backend/class-load.php:52
+#: build/backend/js/index.js:46
+msgid "Welcome"
+msgstr "Bienvenue !"
+
+#: lib/backend/class-load.php:83 lib/backend/class-load.php:86
+#: vendor_packages/wp-plugin-table-links.php:13 build/backend/js/index.js:46
+msgid "Premium"
+msgstr "Premium"
+
+#: lib/backend/class-load.php:67 lib/backend/class-load.php:68
+#: build/backend/js/index.js:46
+msgid "Feeds"
+msgstr "Flux"
+
+#: compatibility/widget.php:64
+msgid "Title"
+msgstr "Titre"
+
+#: lib/backend/class-load.php:75 lib/backend/class-load.php:76
+#: vendor_packages/wp-plugin-table-links.php:8 build/backend/js/index.js:46
+msgid "Settings"
+msgstr "Réglages"
+
+#: compatibility/widget.php:85
+msgid "Add New Gallery"
+msgstr "Ajouter une nouvelle galerie"
+
+#: vendor_packages/wp-notice-plugin-promote.php:42
+msgid "Hello! Thank you for choosing the %s plugin!"
+msgstr "Salut ! Merci d’avoir choisi l’extension %s !"
+
+#: compatibility/widget.php:16
+msgid "Displays your Instagram gallery"
+msgstr "Affiche votre galerie Instagram"
+
+#: lib/backend/class-load.php:59 lib/backend/class-load.php:60
+#: build/backend/js/index.js:46
+msgid "Accounts"
+msgstr "Comptes"

@@ -14,7 +14,14 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
 /* Add your custom styles here */
 
-
+ html,body{
+width:100%;
+overflow-x:hidden;
+}
+/*link change */
+body a,body a:hover {
+color : #FFCD66;
+}
 /*header */
 @media (min-width: 1024px)  {
 .elementor-element-6e48cd0e.elementor-sticky--effects  {
@@ -30,6 +37,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 } }
 
 
+
 /*header vertical popup */
 .popupmenu ul.sub-menu li a {
     width: 220px;
@@ -40,6 +48,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
    width: 300px;
    position: fixed
    
+}
+.wpmllangues .wpml-ls-flag {
+    width: 30px !important ; 
 }
 /*header mobile */
 .header_mobile ul.sub-menu li a {
@@ -95,7 +106,7 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 /*année_scolaire ------------------------------------------------------ */
 
 
-
+/*FAQ*/
 
 
 

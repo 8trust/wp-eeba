@@ -1,0 +1,232 @@
+# Translation of Plugins - Menu Icons by ThemeIsle - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Menu Icons by ThemeIsle - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-12 06:00:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.9\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Menu Icons by ThemeIsle - Development (trunk)\n"
+
+#. Author URI of the plugin
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the plugin
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Codeinwp/wp-menu-icons"
+msgstr "https://github.com/Codeinwp/wp-menu-icons"
+
+#: includes/settings.php:790
+msgid "the customizer"
+msgstr "l’outil de personnalisation"
+
+#: includes/settings.php:785
+msgid "Please note that the actual look of the icons on the front-end will also be affected by the style of your active theme. You can add your own CSS using %2$s or a plugin such as %3$s if you need to override it."
+msgstr "Veuillez noter que l’aspect actuel des icônes sur l’interface publique sera également affecté par les styles de votre thème actif. Vous pouvez ajouter votre propre CSS en utilisant %2$s ou une extension comme %3$s si vous avez besoin de l’écraser."
+
+#: menu-icons.php:170
+msgid "Looks like Menu Icons was installed via Composer. Please activate Icon Picker first."
+msgstr "On dirait que des icônes de menu ont été installés via Composer. Veuillez d’abord activer Icône Picker."
+
+#: includes/settings.php:781
+msgid "Change"
+msgstr "Modifier"
+
+#: includes/settings.php:597
+msgid "SVG Width"
+msgstr "Largeur SVG"
+
+#: includes/picker.php:74
+msgid "Type"
+msgstr "Genre"
+
+#. Description of the plugin
+msgid "Spice up your navigation menus with pretty icons, easily."
+msgstr "Ajoutez du dynamisme à vos menus de navigation avec de jolies icônes."
+
+#. Plugin Name of the plugin
+msgid "Menu Icons"
+msgstr "Menu Icons"
+
+#: menu-icons.php:141
+msgid "Menu Icons: No registered icon types found."
+msgstr "Menu Icons : aucun type d’icône enregistré trouvé."
+
+#: includes/settings.php:608
+msgid "Image Size"
+msgstr "Taille d&rsquo;image"
+
+#: includes/library/functions.php:82
+msgid "Full Size"
+msgstr "Taille réelle"
+
+#: includes/library/functions.php:81
+msgid "Large"
+msgstr "Grand"
+
+#: includes/library/functions.php:80
+msgid "Medium"
+msgstr "Moyen"
+
+#: includes/library/functions.php:79
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: includes/library/font-awesome/font-awesome.php:116
+msgid "Deselect"
+msgstr "Desélectionner "
+
+#: includes/settings.php:579
+msgid "Sub"
+msgstr "Sous"
+
+#: includes/settings.php:575
+msgid "Bottom"
+msgstr "En bas"
+
+#: includes/settings.php:571
+msgid "Text Bottom"
+msgstr "Bas de texte"
+
+#: includes/settings.php:567
+msgid "Baseline"
+msgstr "Base"
+
+#: includes/settings.php:563
+msgid "Middle"
+msgstr "Milieu"
+
+#: includes/settings.php:559
+msgid "Text Top"
+msgstr "Haut de texte"
+
+#: includes/settings.php:555
+msgid "Top"
+msgstr "En haut"
+
+#: includes/settings.php:551
+msgid "Super"
+msgstr "Super"
+
+#: includes/settings.php:546
+msgid "Vertical Align"
+msgstr "Aligner verticalement"
+
+#: includes/settings.php:586
+msgid "Font Size"
+msgstr "Taille de police"
+
+#: includes/settings.php:430
+msgid "Save Settings"
+msgstr "Enregistrer les réglages"
+
+#: includes/settings.php:421
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: includes/settings.php:420
+msgid "Discard all changes and reset to default state"
+msgstr "Ignorer toutes les modifications et rétablir l’état par défaut"
+
+#: includes/settings.php:373 includes/settings.php:401
+msgid "Extensions"
+msgstr "Extensions"
+
+#: includes/settings.php:488
+msgid "\"%s\" menu settings"
+msgstr "\"%s\" paramètres"
+
+#: includes/settings.php:486
+msgid "Current Menu"
+msgstr "Menu actuel"
+
+#: includes/settings.php:463
+msgid "Icon Types"
+msgstr "Types d’icônes"
+
+#: includes/settings.php:458
+msgid "Global settings"
+msgstr "Paramètres globaux"
+
+#: includes/settings.php:457
+msgid "Global"
+msgstr "Global"
+
+#: includes/settings.php:539
+msgid "After"
+msgstr "Après"
+
+#: includes/settings.php:535
+msgid "Before"
+msgstr "Avant"
+
+#: includes/settings.php:530
+msgid "Position"
+msgstr "Position"
+
+#: includes/settings.php:523
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/settings.php:519
+msgid "No"
+msgstr "Non"
+
+#: includes/settings.php:514
+msgid "Hide Label"
+msgstr "Masquer le libellé"
+
+#: includes/settings.php:301
+msgid "Menu Icons Settings"
+msgstr "Paramètres du \"Menu Icônes\""
+
+#: includes/settings.php:336
+msgid "<strong>Menu Icons Settings</strong> have been successfully reset."
+msgstr "<strong>Les paramètres des icônes de menu</strong> ont bien été réinitialiser."
+
+#: includes/settings.php:335
+msgid "<strong>Menu Icons Settings</strong> have been successfully updated."
+msgstr "<strong>Les réglages de Menu Icônes</strong>ont bien été mis à jour."
+
+#: includes/library/form-fields.php:152
+msgid "%1$s: Type %2$s is not supported, reverting to text."
+msgstr "%1$s : Type %2$s n’est pas supporté, retour au texte."
+
+#: includes/picker.php:79 includes/picker.php:177
+msgid "Icon"
+msgstr "Icône"
+
+#: includes/picker.php:129 includes/settings.php:780
+msgid "Remove"
+msgstr "Retirer"
+
+#: includes/picker.php:127
+msgid "Icon:"
+msgstr "Icônes"
+
+#: includes/settings.php:783
+msgid "Preview"
+msgstr "Aperçu"
+
+#: includes/settings.php:782
+msgid "All"
+msgstr "Tous"
+
+#: includes/picker.php:128 includes/settings.php:779
+msgid "Select"
+msgstr "Sélectionner"
+
+#: includes/settings.php:778
+msgid "Select Icon"
+msgstr "Sélectionnez une icône"
+
+#: includes/library/form-fields.php:528
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Sélectionner &mdash;"
