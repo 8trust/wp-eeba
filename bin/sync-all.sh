@@ -7,7 +7,7 @@ fi
 
 ENV_SRC=$1
 ENV_DEST=$2
-REPOSITORY=wp-skeleton
+REPOSITORY=wp-eeba
 
 read -p "Sync-database $ENV_SRC > $ENV_DEST ? " -n 1 -r
 echo    # (optional) move to a new line

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 cd "${BASH_SOURCE%/*}/" || exit
 
-PREFIX='skeleton'
+PREFIX='eeba'
 IMAGES=( 'wordpress-8.1' )
 
 for IMAGE in "${IMAGES[@]}"
