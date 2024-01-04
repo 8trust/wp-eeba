@@ -1,8 +1,0 @@
-<header class="inavii__header-container {{ not enable_bio_header_box ? 'inavii__bio-active' : '' }}">
-    {% if (username_header_box or enable_avatar_header_box or enable_bio_header_box) %}
-        {% include 'view/header-box/header-avatar.twig' %}
-    {% endif %}
-    {% if (enable_header_follow_button) %}
-        {% include 'view/header-box/header-follow-instagram.twig' %}
-    {% endif %}
-</header>

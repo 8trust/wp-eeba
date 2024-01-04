@@ -13,11 +13,11 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 
 /* Add your custom styles here */
-
  html,body{
 width:100%;
 overflow-x:hidden;
 }
+
 /*link change */
 body a,body a:hover {
 color : #FFCD66;
@@ -52,11 +52,17 @@ color : #FFCD66;
 .wpmllangues .wpml-ls-flag {
     width: 30px !important ; 
 }
+
+.menu_vertical .wpml-ls-item{
+    display: none !important;
+}
 /*header mobile */
 .header_mobile ul.sub-menu li a {
     width: auto;
     border-radius: 10px;
 }
+
+
 
 /*homepage tabs */
 .e-n-tabs-heading .e-n-tab-title[aria-selected=true]{
@@ -88,11 +94,13 @@ color : #FFCD66;
 /* Masquer la flèche par défaut */
 .nav_menu_aside_mat .elementor-nav-menu .elementor-item i {
     opacity: 0;
+	color: #FFCD66 !important;
 }
 
 /* Rendre la flèche visible pour les éléments actifs */
 .nav_menu_aside_mat .elementor-nav-menu .elementor-item.elementor-item-active i {
    opacity: 1;
+	
 }
 
 .nav_menu_aside_mat ul li a.elementor-item-active {
@@ -107,6 +115,13 @@ color : #FFCD66;
 
 
 /*FAQ*/
+
+
+.Menu_accordeon .e-n-accordion-item[open] .e-n-accordion-item-title {
+
+  transform: translateX(30px)!important;
+  transition: transform 1s!important;
+} 
 
 
 
